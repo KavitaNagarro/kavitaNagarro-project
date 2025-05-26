@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hybrisconfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="resources/schemas/extensions.xsd">
+	<extensions>
+		<!--
+				All extensions located in ${HYBRIS_BIN_DIR}/platform/ext are automatically loaded.
+				More information about how to configure available extensions can be found here : https://wiki.hybris.com/x/nZVzC
+		-->
+		<path dir="${HYBRIS_BIN_DIR}" />
+		<extension name='solrfacetsearch' />
+		<extension name='solrfacetsearchbackoffice' />
+		<extension name='solrserver' />
+		<extension name='backofficesearchservices' />
+		<extension name='searchbackoffice' />
+		<extension name='searchprovidercssearchbackoffice' />
+		<extension name='searchprovidercssearchservices' />
+		<extension name='searchservices' />
+         <extension name='backoffice' />
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagacccore"/>
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagaccbackoffice"/>
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagaccfacades"/>
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagaccfulfilmentprocess"/>
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagaccinitialdata"/>
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagaccstorefront"/>
+		<extension dir="C:\Project\Nagarro\CXCOMM220500P_25-80006942\hybris\bin/custom/nagacc/nagacctest"/>
+
+	</extensions>
+</hybrisconfig>

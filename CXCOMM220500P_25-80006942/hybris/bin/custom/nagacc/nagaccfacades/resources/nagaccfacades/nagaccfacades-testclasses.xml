@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testclasses><nagaccfacades><testclass>com.hybris.nagarro.facades.suggestion.impl.DefaultSimpleSuggestionFacadeTest</testclass><testclass>com.hybris.nagarro.facades.suggestion.DefaultSimpleSuggestionFacadeIntegrationTest</testclass></nagaccfacades></testclasses>
